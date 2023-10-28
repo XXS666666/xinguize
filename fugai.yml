@@ -152,7 +152,7 @@ cfw-latency-url: http://www.google.com/generate_204
      #- 114.114.114.114 # 114DNS
   #experimental:
     #interface-name: WLAN
-rules-mixin:
+rules:
   - 'DOMAIN,cdn.u8899.de,PROXY'
 
 #自定义配置目录
