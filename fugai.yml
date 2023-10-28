@@ -930,7 +930,7 @@ rule-providers:
     ChinaDomain: { type: http, behavior: classical, path: ./Rules/ChinaDomain.yaml, url: 'https://cdn.u8899.de/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/ChinaDomain.yaml', interval: 21600 }
     ChinaIP: { type: http, behavior: ipcidr, path: ./Rules/ChinaIP.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/ChinaIP.yaml', interval: 21600 }
     China: { type: http, behavior: classical, path: ./Rules/China.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/China.yaml', interval: 21600 }
-mix-rules:
+rules:
  - DOMAIN,cdn.u8899.de,PROXY
  - DOMAIN-SUFFIX,wechat.com,DIRECT
  - DOMAIN-SUFFIX,qq.com,DIRECT
