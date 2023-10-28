@@ -128,7 +128,7 @@ experimental:
 #rules:
 #  - 'MATCH,DIRECT'
 rules:
- - 'DOMAIN,cdn.u8899.de,PROXY'
+   - 'DOMAIN,cdn.u8899.de,PROXY'
 
 
 # Clash for Windows
