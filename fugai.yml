@@ -901,5 +901,109 @@ cfw-bypass:
   - 172.31.*
   - 192.168.*
   - <local>
+rule-providers:
+    Unbreak: { type: http, behavior: classical, path: ./Rules/Unbreak.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Unbreak.yaml', interval: 21600 }
+    Advertising: { type: http, behavior: classical, path: ./Rules/Advertising.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Guard/Advertising.yaml', interval: 21600 }
+    Hijacking: { type: http, behavior: classical, path: ./Rules/Hijacking.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Guard/Hijacking.yaml', interval: 21600 }
+    Privacy: { type: http, behavior: classical, path: ./Rules/Privacy.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Guard/Privacy.yaml', interval: 21600 }
+    Steam: { type: http, behavior: classical, path: ./Rules/Games/Steam.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/Game/Steam.yaml', interval: 21600 }
+    Blizzard: { type: http, behavior: classical, path: ./Rules/Games/Blizzard.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/Game/Blizzard.yaml', interval: 21600 }
+    Discord: { type: http, behavior: classical, path: ./Rules/Games/Discord.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/Game/Discord.yaml', interval: 21600 }
+    Nintendo: { type: http, behavior: classical, path: ./Rules/Games/Nintendo.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/Game/Nintendo.yaml', interval: 21600 }
+    Origin: { type: http, behavior: classical, path: ./Rules/Games/Origin.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/Game/Origin.yaml', interval: 21600 }
+    Xbox: { type: http, behavior: classical, path: ./Rules/Games/Xbox.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/Game/Xbox.yaml', interval: 21600 }
+    Apple: { type: http, behavior: classical, path: ./Rules/Apple.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/Apple/Apple.yaml', interval: 21600 }
+    Telegram: { type: http, behavior: classical, path: ./Rules/Telegram.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/Telegram/Telegram.yaml', interval: 21600 }
+    Microsoft: { type: http, behavior: classical, path: ./Rules/Microsoft.yaml, url: 'https://cdn.u8899.de/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/Microsoft.yaml', interval: 21600 }
+    OneDrive: { type: http, behavior: classical, path: ./Rules/OneDrive.yaml, url: 'https://cdn.u8899.de/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/Ruleset/OneDrive.yaml', interval: 21600 }
+    GoogleDrive: { type: http, behavior: classical, path: ./Rules/GoogleDrive.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/Google/GoogleDrive.yaml', interval: 21600 }
+    Bilibili: { type: http, behavior: classical, path: ./Rules/Bilibili.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Video/bilibili.yaml', interval: 21600 }
+    YouTube: { type: http, behavior: classical, path: ./Rules/YouTube.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Video/YouTube.yaml', interval: 21600 }
+    TikTok: { type: http, behavior: classical, path: ./Rules/TikTok.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Video/TikTok.yaml', interval: 21600 }
+    Netflix: { type: http, behavior: classical, path: ./Rules/Netflix.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Video/Netflix.yaml', interval: 21600 }
+    Disney: { type: http, behavior: classical, path: ./Rules/Disney.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Video/DisneyPlus.yaml', interval: 21600 }
+    Bahamut: { type: http, behavior: classical, path: ./Rules/Bahamut.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Video/Bahamut.yaml', interval: 21600 }
+    HBO: { type: http, behavior: classical, path: ./Rules/HBO.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Video/HBO.yaml', interval: 21600 }
+    Streaming: { type: http, behavior: classical, path: ./Rules/Streaming.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/Streaming.yaml', interval: 21600 }
+    Global: { type: http, behavior: classical, path: ./Rules/Global.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Global.yaml', interval: 21600 }
+    StreamingCN: { type: http, behavior: classical, path: ./Rules/StreamingCN.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/StreamingMedia/StreamingCN.yaml', interval: 21600 }
+    ChinaDomain: { type: http, behavior: classical, path: ./Rules/ChinaDomain.yaml, url: 'https://cdn.u8899.de/gh/ACL4SSR/ACL4SSR@master/Clash/Providers/ChinaDomain.yaml', interval: 21600 }
+    ChinaIP: { type: http, behavior: ipcidr, path: ./Rules/ChinaIP.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/Extra/ChinaIP.yaml', interval: 21600 }
+    China: { type: http, behavior: classical, path: ./Rules/China.yaml, url: 'https://cdn.u8899.de/gh/DivineEngine/Profiles@master/Clash/RuleSet/China.yaml', interval: 21600 }
 mix-rules:
-  - DOMAIN,cdn.u8899.de,🎯 全球直连
+ - DOMAIN,cdn.u8899.de,PROXY
+ - DOMAIN-SUFFIX,wechat.com,DIRECT
+ - DOMAIN-SUFFIX,qq.com,DIRECT
+ - DOMAIN-SUFFIX,tencent.com,DIRECT
+ - DOMAIN-SUFFIX,onedrive.live.com,PROXY
+ - DOMAIN-SUFFIX,cdn.jsdelivr.net,PROXY
+ - DOMAIN-SUFFIX,pureapk.com,PROXY
+ - DOMAIN-SUFFIX,v2rayssr.com,PROXY
+ - DOMAIN-SUFFIX,v2fly.org,PROXY
+ - DOMAIN-SUFFIX,dubox.com,PROXY
+ - DOMAIN-SUFFIX,hootsuite.com,PROXY
+ - DOMAIN-SUFFIX,ow.ly,PROXY
+ - DOMAIN-SUFFIX,goo.gl,PROXY
+ - DOMAIN-SUFFIX,share.dmhy.org,PROXY
+ - DOMAIN-SUFFIX,duyaoss.com,PROXY
+ - DOMAIN-SUFFIX,52.mk,PROXY
+ - DOMAIN-SUFFIX,flowercloud.net,PROXY 
+ - DOMAIN-SUFFIX,hostloc.com,PROXY
+ - DOMAIN-SUFFIX,theinspirationgrid.com,PROXY
+ - DOMAIN-SUFFIX,nekoneko.cloud,PROXY
+ - DOMAIN-SUFFIX,kejilion.xyz,PROXY
+ - DOMAIN-SUFFIX,idc.wiki,PROXY
+ - DOMAIN-SUFFIX,ovhcloud.com,PROXY
+ - DOMAIN-SUFFIX,233v2.com,PROXY
+ - DOMAIN,www.v2ray.com,PROXY
+ - DOMAIN,translate.googleapis.com,PROXY
+ - DOMAIN-SUFFIX,nivod.tv,PROXY
+ - DOMAIN-SUFFIX,mudvod.tv,PROXY
+ - DOMAIN-SUFFIX,openai.com,PROXY
+ - DOMAIN-SUFFIX,chinadigitaltimes.net,PROXY
+ - DOMAIN-SUFFIX,sms-activate.org,PROXY
+ - DOMAIN-SUFFIX,katfile.com,PROXY
+ - DOMAIN-SUFFIX,ping.pe,PROXY
+ - DOMAIN-SUFFIX,openstreetmap.org,PROXY
+ - DOMAIN-SUFFIX,gstatic.com,PROXY
+ - DOMAIN-SUFFIX,terabox.com,PROXY
+ - RULE-SET,Advertising,REJECT
+ - RULE-SET,Hijacking,REJECT
+ - RULE-SET,Privacy,REJECT
+ - DOMAIN-SUFFIX,telegram.org,PROXY
+ - RULE-SET,Telegram,PROXY
+ - RULE-SET,Netflix,PROXY
+ - RULE-SET,Disney,PROXY
+ - RULE-SET,YouTube,PROXY
+ - RULE-SET,Bahamut,PROXY
+ - RULE-SET,Bilibili,DIRECT
+ - DOMAIN-SUFFIX,biliapi.net,DIRECT
+ - DOMAIN-SUFFIX,bilibili.com,DIRECT
+ - DOMAIN-SUFFIX,bilivideo.com,DIRECT
+ - DOMAIN-SUFFIX,hdslb.com,DIRECT
+ - RULE-SET,GoogleDrive,PROXY
+ - DOMAIN-SUFFIX,onedrive.live.com,PROXY
+ - RULE-SET,Microsoft,PROXY
+ - RULE-SET,HBO,PROXY
+ - RULE-SET,TikTok,PROXY
+ - RULE-SET,Apple,PROXY
+ - RULE-SET,Steam,PROXY
+ - RULE-SET,Blizzard,PROXY
+ - RULE-SET,Discord,PROXY
+ - RULE-SET,Nintendo,PROXY
+ - RULE-SET,Origin,PROXY
+ - RULE-SET,Xbox,PROXY
+ - RULE-SET,Streaming,PROXY
+ - RULE-SET,Global,PROXY
+ - RULE-SET,Unbreak,DIRECT
+ - RULE-SET,StreamingCN,DIRECT
+ - DOMAIN-SUFFIX,speed.cloudflare.com,PROXY
+ - DOMAIN-SUFFIX,bulianglin.com,PROXY
+ - DOMAIN-SUFFIX,speedtest.net,PROXY
+ - DOMAIN-SUFFIX,ooklaserver.net,PROXY
+ - DOMAIN-SUFFIX,ipleak.net,PROXY
+ - RULE-SET,China,DIRECT
+ - RULE-SET,ChinaIP,DIRECT
+ - RULE-SET,ChinaDomain,DIRECT
+ - GEOIP,CN,DIRECT
+ - MATCH,PROXY
