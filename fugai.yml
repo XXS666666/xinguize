@@ -127,8 +127,6 @@ experimental:
 #      - Shadowsocks
 #rules:
 #  - 'MATCH,DIRECT'
-rules:
-  - 'DOMAIN,cdn.u8899.de,PROXY'
 
 
 # Clash for Windows
@@ -903,5 +901,5 @@ cfw-bypass:
   - 172.31.*
   - 192.168.*
   - <local>
-rules:
+mix-rules:
   - 'DOMAIN,cdn.u8899.de,🎯 全球直连'
