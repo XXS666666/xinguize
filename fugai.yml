@@ -152,8 +152,7 @@ cfw-latency-url: http://www.google.com/generate_204
      #- 114.114.114.114 # 114DNS
   #experimental:
     #interface-name: WLAN
-rules:
-  - 'DOMAIN,cdn.u8899.de,🎯 全球直连'
+
 
 #自定义配置目录
 #cfw-profiles-path: 'C:\Users\Administrator\.config\clash\profiles'
@@ -904,3 +903,5 @@ cfw-bypass:
   - 172.31.*
   - 192.168.*
   - <local>
+rules:
+  - 'DOMAIN,cdn.u8899.de,🎯 全球直连'
