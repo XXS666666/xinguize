@@ -1,0 +1,13 @@
+DOMAIN-SUFFIX,wechat.com
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,tencent.com
+RULE-SET,Bilibili
+DOMAIN-SUFFIX,biliapi.net
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-SUFFIX,bilivideo.com
+DOMAIN-SUFFIX,hdslb.com
+RULE-SET,Unbreak
+RULE-SET,StreamingCN
+RULE-SET,China
+#RULE-SET,ChinaIP
+RULE-SET,ChinaDomain
