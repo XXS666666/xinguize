@@ -37,13 +37,11 @@ DOMAIN-SUFFIX,telegram.org
 RULE-SET,Telegram
 RULE-SET,Netflix
 RULE-SET,Disney
-RULE-SET,YouTube
 RULE-SET,Bahamut
 RULE-SET,GoogleDrive
 DOMAIN-SUFFIX,onedrive.live.com
 RULE-SET,Microsoft
 RULE-SET,HBO
-RULE-SET,TikTok
 RULE-SET,Apple
 RULE-SET,Steam
 RULE-SET,Blizzard
